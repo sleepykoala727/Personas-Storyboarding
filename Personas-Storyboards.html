@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personas and Storyboards</title>
+    <!-- import javascript variables and functions -->
+    <script src="app.js" defer></script>
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="styles.css" /> 
+  </head>
+
+  <!-- page content goes into <body> -->
+  <body>
+    <div id="cs1300-gallery">
+      <h1>Personas and Storyboards: Library Checkout/Catalog Computer</h1>
+
+      <!-- Part 1: Preparation -->
+      <h2>Part 1: Preparation</h2>
+      <ul>
+        <li>Accessible interface: public library catalogue computer</li>
+        <li>Questions for users regarding experience with interface: 
+          <ul>
+            <li>What kind of materials are you looking to check out?</li></li>
+            <li>Did you experience any frustrations or confusions using the interface to check out?</li>
+            <li>How much time did it take for you to check out your items?</li>
+            <li>Did you need to ask anyone for help to check out your items?</li>
+            <li>How easy was it to search for your item's availability?</li>
+            <li>How easy was it to navigate to your item within the library?</li>
+          </ul>
+        </li>
+        <li>Sketch</li>
+        <img class="sketch" src="./assets/sketch.jpeg" alt="sketch of library computer">
+        <li>Brief description: The public library catalogue computer gives library visitors a chance to locate the item they're looking for on their own by browsing the library's database. Connected to a barcode scanner, keyboard, and mouse, they can sign in through their library card, filter through various categories to narrow their search, and be put on a waitlist for unavailable items. Since this library is a part of a network of libraries, this search can also apply to libraries outside of the one they're using. </li>
+      </ul>
+
+      <!-- Part 2: Recording Observations -->
+      <h2>Part 2: Recording Observations </h2>
+      <u>Person 1</u>
+      <ul>
+        <li>Older man, carrying three books and two DVDs. Scanned books first, prompted with message to scan card first. Reacted with confusion before pulling card out. Squinted to read the words on the screen, didn't click the “enlarge”/”zoom” button. Tried to scan card before scanning each book/DVD. Computer software didn't recognize card as valid. Reacted with frustration. Had to write the due date on separate slip of paper in his pocket.</li>
+        <li>Response to questions 
+          <ul>
+            <li>checking out three books and two DVDs took 15 minutes, but the computer was confusing to use because it didn't present a sequence of steps to take</li>
+            <li>the software was difficult to read and the options to make it easier to read is not accessible enough since it wasn't labelled</li>
+            <li>constraints on what kind of materials the barcode scanner could scan based on what step of the checkout process it's on</li>
+          </ul>
+        </li>
+      </ul>
+
+      <u>Person 2</u>
+      <ul>
+        <li>Pre-teen boy, searched the title he was looking for in the initial screen's card id and was presented with “user not found” error, eventually clicked catalog and searched for the title. it was available in the building, but he vocalized trouble with identifying location listed. left and came back twice to check the location again. </li>
+        <li>Response to questions 
+          <ul>
+            <li>looking for a video game, but it took about 20 minutes, and regretted not asking a librarian who could find it easier and faster</li>
+            <li>confused as to why the checkout process and the lookup process is on the same computer with confusing instructions</li>
+            <li>confused as to why the location listed on the screen isn't more understandable to non-librarians and wished it could show a map of the library with the location highlighted</li>
+          </ul>
+        </li>
+      </ul>
+
+      <u>Person 3</u>
+      <ul>
+        <li>mom with two younger daughters, trying to figure out what book they wanted to get, confusion over what the book name was but daughters couldn't verify from title because the computer was on a table that was too tall. ended up asking librarian.</li>
+        <li>Response to questions 
+          <ul>
+            <li>no issue with the actual interface itself (used it many times in the past), but couldn't ask daughters if the results were what they wanted because they were too short</li>
+            <li>took too long to try to use it with her daughters, so she asked a librarian to deal with that process instead</li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- Part 3: Personas -->
+      <h2>Part 3: Personas </h2>
+      <h3><u>Persona 1: Checker-Outer</u></h3>
+      <ul>
+        <li>Checker-Outer is an older patron of the library that often checks out multiple items at a time. Usually, they'll interact with a librarian, but it's a super busy day, and the line for them is longer than desired, so Checker-Outer will opt for the self checkout instead.</li>
+        <li>The interface problems involve a lack of a clear set of instructions for how to checkout materials.</li>
+        <li>This represents users of the public library catalogue computer because it facilitates one of the primary functions of the library, which is to check out materials. The demographic of Checker-Outer is also representative of those who often go to the library and wants to check out physical materials.</li>
+      </ul>
+      <div class="container">
+        <div class="box">
+            <p>THINKS</p>
+            <li>I'm excited to read this book and watch this movie tonight!</li>
+            <li>I wish the words were bigger and easier to read</li>
+            <li>Why is this taking so long?</li>
+            </div>
+        <div class="box">
+            <p>FEELS</p>
+            <li>frustrated that the computer doesn't print out a receipt</li>
+            <li>confused about how to check out books</li>
+            <li>panicked about navigating all the error messages</li>
+        </div>
+        <div class="box">
+            <p>SAYS</p>
+            <li>What does that say?</li>
+            <li>Stupid machine won't do what I want</li>
+            <li>Do I scan my card each time?</li>
+        </div>
+        <div class="box">
+            <p>DOES</p>
+            <li>Forgets to bring library card out</li>
+            <li>Writes due date on a blank slip of paper</li>
+            <li>leaves without logging out of account</li>
+        </div>
+      </div>
+
+      <h3><u>Persona 2: Searcher</u></h3>
+      <ul>
+        <li>Searcher is a younger patron of the library that is looking for something specific in the library. They don't normally use the library, and they don't want to talk to anyone and would prefer to find the material themselves, quickly.</li>
+        <li>The interface problems involve not knowing how to read the internal library's location naming conventions after searching for the desired material.</li>
+        <li>This represents users of the public library catalogue computer because it facilitates one of the other primary functions of the library, which is to find materials. The demographic of Searcher is also representative of those who don't often go to the library, yet wants to access the physical materials it offers.</li>
+      </ul>
+      <div class="container">
+        <div class="box">
+            <p>THINKS</p>
+            <li>I want to play the new video game tonight!</li>
+            <li>I haven't been here in so long—where is the video game room?</li>
+            <li>This computer looks so old</li>
+            </div>
+        <div class="box">
+            <p>FEELS</p>
+            <li>confused about how to read the location information and navigate there</li>
+            <li>annoyed that they've gotten lost multiple times already</li>
+            <li>dread about potentially having to ask librarian for help</li>
+            <li>happy that their intended material are available</li>
+        </div>
+        <div class="box">
+            <p>SAYS</p>
+            <li>Where is that?</li>
+            <li>Do I need my card for this?</li>
+        </div>
+        <div class="box">
+            <p>DOES</p>
+            <li>tries to find room where the material is located</li>
+            <li>searches for item through library catalog</li>
+        </div>
+      </div>
+      
+      <!-- Part 4: Storyboards -->
+      <h2>Part 4: Storyboards </h2>
+      <img class="storyboard" src="./assets/storyboard.jpeg" alt="storyboard">
+
+      </div>
+  </body>
+
+</html>
